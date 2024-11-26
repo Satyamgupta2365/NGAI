@@ -10,7 +10,7 @@ import calendar
 from datetime import datetime
 
 API_KEY_GROQ = "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"
-API_KEY_GENAI = "AIzaSyC4f-d-Igv6UWdHKoMgZcNfRTeQBFVgtUw"
+API_KEY_GENAI = "AIzaSyBxzv63Du0nnfC000WoCrUchOJbGio3-vA"
 
 client = Groq(api_key=API_KEY_GROQ)
 genai.configure(api_key=API_KEY_GENAI)
