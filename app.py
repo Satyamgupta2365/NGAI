@@ -481,7 +481,6 @@ elif app_mode == "Personalized Diet and Fitness Syncing":
         "Take it one day at a time, you've got this!",
         "Celebrate small victories!",
     ]
-    st.sidebar.write(motivational_tips[datetime.datetime.now().day % len(motivational_tips)])
     
     if st.button("Generate Diet and Fitness Plan"):
         prompt = f"""
