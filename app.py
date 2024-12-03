@@ -26,7 +26,7 @@ app_mode = st.sidebar.selectbox(
         "Food Allergen Checker",
         "Diet Recommendation for Chronic Conditions",
         "Personalized Diet and Fitness Syncing",
-        "Meal Calendar"  # Corrected spelling
+        "Meal Calendar"  
     ]
 )
 
@@ -239,7 +239,7 @@ if app_mode == "Personalized Meal Plan":
                 }
             ]
             completion = client.chat.completions.create(
-                model="llama-3.2-90b-text-preview",
+                model="llama-3.1-70b-versatile",
                 messages=messages,
                 temperature=1,
                 max_tokens=1024
@@ -425,7 +425,7 @@ elif app_mode == "Diet Recommendation for Chronic Conditions":
                 }
             ]
             completion = client.chat.completions.create(
-                model="llama-3.2-90b-text-preview",
+                model="llama-3.1-70b-versatile",
                 messages=messages,
                 temperature=1,
                 max_tokens=1024
@@ -519,7 +519,7 @@ elif app_mode == "Personalized Diet and Fitness Syncing":
                 # Use Groq client to generate the plan
                 messages = [{"role": "user", "content": prompt}]
                 completion = client.chat.completions.create(
-                    model="llama-3.2-90b-text-preview",
+                    model="llama-3.1-70b-versatile",
                     messages=messages,
                     temperature=1,
                     max_tokens=1024
