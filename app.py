@@ -236,7 +236,6 @@ if app_mode == "Personalized Meal Plan":
                               "make sure first the dish must be mentioned followed by ingeredints and its cost then approximation of entire dish\n"
                               "when its intermittent fasting make sure to take time which user provides\n"
                               "provide deatils of the paramter choosen by the user before giving the diet \n"
-                              "If i ask in days give me in the complete day. i want youto give me all the data which asked "
 
                 }
             ]
@@ -316,7 +315,7 @@ if app_mode == "Food Nutrient and Calorie Estimator":
                     ]
                 )
 
-                st.markdown("<div style='background-color: #f0f0f0; padding: 10px; border-radius: 5px;'>"
+                st.markdown("<div style='background-color: #2c3e50; padding: 10px; border-radius: 5px;'>"
                             "<strong>Meal Balance Assessment:</strong><br>"
                             f"{balance_result.text}"
                             "</div>", unsafe_allow_html=True)
