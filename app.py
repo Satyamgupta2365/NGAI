@@ -181,7 +181,7 @@ if app_mode == "Home":
             </p>
             <ul>
                 <li><b>Akanksha Sharma</b> – <a href="https://www.linkedin.com/in/sharmaakanksha01/" target="_blank">LinkedIn</a> | <a href="https://github.com/Akankshaaaa-01" target="_blank">GitHub</a></li>
-                <li><b>Vyshali NS/b> – <a href="https://www.linkedin.com/in/vyshali-n-s-0405bb2b1" target="_blank">LinkedIn</a> | <a href="https://github.com/Vyshdi" target="_blank">GitHub</a></li>
+                <li><b>Vyshali NS</b> – <a href="https://www.linkedin.com/in/vyshali-n-s-0405bb2b1" target="_blank">LinkedIn</a> | <a href="https://github.com/Vyshdi" target="_blank">GitHub</a></li>
                 <li><b>Satyam Gupta</b> – <a href="https://www.linkedin.com/in/satyam-gupta-41606a28a" target="_blank">LinkedIn</a> | <a href="https://github.com/Satyamgupta2365" target="_blank">GitHub</a></li>
         </div>
     """,
