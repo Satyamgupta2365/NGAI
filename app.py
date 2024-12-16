@@ -568,7 +568,7 @@ if app_mode == "Meal Calendar":
         html_code = '<table style="width: 100%; text-align: center; border-collapse: collapse;">'
         html_code += '<tr>'  # Table header with days of the week
         for day_name in calendar.day_name:
-            html_code += f'<th style="padding: 5px; border: 1px solid #ddd; background-color: #f2f2f2;">{day_name}</th>'
+            html_code += f'<th style="padding: 5px; border: 1px solid #ddd; background-color: #2c3e50;">{day_name}</th>'
         html_code += '</tr>'
         
         for week in cal:
