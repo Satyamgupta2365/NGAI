@@ -514,6 +514,7 @@ elif app_mode == "Personalized Diet and Fitness Syncing":
         6. Provide tips on food choices and alternatives to reach the calorie goal.
         7. Suggest food alternatives based on available ingredients and preferences.
         8. Include a brief motivational tip for each day to help the user stay on track.
+        9. try to give the complete answer in short but give complete answer.
         """
         with st.spinner("Generating your personalized diet and fitness plan..."):
             try:
